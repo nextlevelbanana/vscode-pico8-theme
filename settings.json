@@ -1,0 +1,45 @@
+{
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#FF004D",
+        "panel.background": "#5F574F",
+        "sideBar.background": "#5F574F",
+        "button.background": "#FF004D",
+        "descriptionForeground": "#FFCCAA",
+        "dropdown.background": "#5F574F",
+        "dropdown.listBackground": "#5F574F",
+        "dropdown.border": "#FFCCAA",
+        "badge.background": "#ff004D",
+        "badge.foreground": "#ffffff",
+        "sideBar.foreground": "#ffffff", 
+        "editor.background": "#5F574F",
+        "editor.foreground": "#ffffff" ,
+        "editor.lineHighlightBackground": "#1D2B53",
+        "editor.lineHighlightBorder": "#29ADFF"
+    },
+    "editor.tokenColorCustomizations": {
+        "functions": "#29ADFF",
+        "keywords": "#FF77A8",
+        "comments": "#C2C3C7",
+        "strings": "#ffec27",
+        "numbers": "#ffa300",
+        "variables": "#00E436",
+        "types": "#FFCCAA",
+        
+        "textMateRules": [
+            {
+                "settings": {
+                    "foreground": "#29ADFF"
+                },
+                "scope": ["variable.language", "storage.modifier"]
+            },
+            {
+                "settings": {
+                    "foreground": "#FFFFFF"
+                },
+                "scope": ["keywords.operators"]
+            }
+            
+        ]
+    }
+
+}
